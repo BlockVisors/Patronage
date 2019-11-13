@@ -79,7 +79,7 @@ class RXNavbar extends React.Component {
               className="d-inline-block align-middle"
               //alt="React Bootstrap logo"
               />
-                </span> <span id="logo-text">Real X</span>
+                </span> <span id="logo-text">Patronage</span>
               </NavbarBrand>
               <UncontrolledTooltip delay={0} target="tooltip6619950104">
                 Made by Dameon Green
@@ -238,6 +238,17 @@ class RXNavbar extends React.Component {
                     <p>Partner</p>
                   </Button>
                 </NavItem>
+                <NavItem>
+                <Button
+                  className="nav-link"
+                  color="default"
+                  href="https://www.creative-tim.com/product/blk-design-system-pro-react?reaf=blkdspr-pages-navbar"
+                  size="sm"
+                  target="_blank"
+                >
+                  <p>Get Listed</p>
+                </Button>
+              </NavItem>
               </Nav>
             </UncontrolledCollapse>
           </Container>
