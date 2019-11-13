@@ -72,12 +72,18 @@ class RXNavbar extends React.Component {
               <NavbarBrand to="/" tag={Link} id="tooltip6619950104">
               <span>
               <img
-              src={require("assets/img/apple-icon.png")}
-              width="60"
-              height="60"
-              padding-right="18px"
-              className="d-inline-block align-middle"
-              //alt="React Bootstrap logo"
+              // src={require("assets/img/apple-icon.png")}
+              // width="60"
+              // height="60"
+              // padding-right="18px"
+              // className="d-inline-block align-middle"
+              // alt="React Bootstrap logo"
+              // removed from navbar:
+              // <NavItem>
+              //   <NavLink href="/rx-about">
+              //       About
+              //   </NavLink>
+              // </NavItem>
               />
                 </span> <span id="logo-text">Patronage</span>
               </NavbarBrand>
@@ -106,11 +112,6 @@ class RXNavbar extends React.Component {
                 </Row>
               </div>
               <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/rx-about">
-                  About
-                </NavLink>
-              </NavItem>
               <NavItem>
                 <NavLink href="/how-we-work">
                   How it Works
